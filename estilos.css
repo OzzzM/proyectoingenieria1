@@ -1,0 +1,61 @@
+/* Estilo de la página */
+body {
+    background-color: #f8f9fa; /* Color de fondo de la página */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    text-align: center; /* Alinear el texto al centro */
+  }
+  
+  /* Estilo del título del nivel */
+  #nivel-titulo {
+    font-size: 24px; /* Tamaño de fuente del título */
+    margin-top: 30px; /* Margen superior del título */
+  }
+  
+  /* Estilo del tablero de puntuación */
+  #puntuacion {
+    font-size: 18px; /* Tamaño de fuente de la puntuación */
+    margin-top: 10px; /* Margen superior del tablero de puntuación */
+  }
+  
+  /* Estilo del contenedor del problema de división */
+  #problema {
+    margin-top: 50px; /* Margen superior del contenedor del problema */
+  }
+  
+  /* Estilo del botón de verificar */
+  #verificar-btn {
+    background-color: #4caf50; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 18px; /* Tamaño de fuente del botón */
+    border: none; /* Borde del botón */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+  }
+  
+  /* Estilo del botón de nueva división */
+  #nueva-div-btn {
+    background-color: #2196f3; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 18px; /* Tamaño de fuente del botón */
+    border: none; /* Borde del botón */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+  }
+  
+  /* Estilo del botón de cambiar nivel */
+  #cambiar-nivel-btn {
+    background-color: #f44336; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 18px; /* Tamaño de fuente del botón */
+    border: none; /* Borde del botón */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+  }
+  
+  /* Estilo de los botones al pasar el cursor sobre ellos */
+  #verificar-btn:hover,
+  #nueva-div-btn:hover,
+  #cambiar-nivel-btn:hover {
+    opacity: 0.8; /* Cambiar la opacidad al pasar el cursor */
+  }
+  
